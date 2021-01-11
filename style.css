@@ -1,0 +1,33 @@
+#container{
+    position: fixed;
+  top: 55%;
+  left: 50%;
+  height: 650px;
+  width: 650px;
+  transform: translate(-50%, -50%);
+border: 3px solid white;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+.button{
+    background-color: rgb(3, 47, 240); 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 4px solid turquoise; 
+    position: fixed;
+    left: 48%;
+    top: 5%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: black;
+}
+.cell{
+    border: 1px solid snow;
+    
+}
